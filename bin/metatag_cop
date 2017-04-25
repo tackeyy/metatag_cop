@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'metatag_cop'
+
+puts MetatagCop::Handler.execute

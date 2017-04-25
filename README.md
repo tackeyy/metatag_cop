@@ -1,8 +1,6 @@
 # MetatagCop
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/metatag_cop`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+MetatagCop loads csv file and checks whether meta tags is set proper value.
 
 ## Installation
 
@@ -22,18 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Prepare csv file like this.
+
+```
+url,                            title,                description,                h1
+https://www.google.co.jp/,      exepected title here, exepected description here, exepected h1 here
+https://www.google.com/doodles, exepected title here, exepected description here, exepected h1 here
+```
+
+2. Run ` $ metatag_cop file_path `
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+- TODO
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/metatag_cop. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+- TODO
 
 ## License
 
