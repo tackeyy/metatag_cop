@@ -1,5 +1,8 @@
-require "metatag_cop/version"
+require 'csv'
 
-module MetatagCop
-  # Your code goes here...
-end
+require 'metatag_cop/version'
+require 'metatag_cop/handler'
+require 'metatag_cop/parser'
+require 'metatag_cop/cops/cop'
+require 'metatag_cop/models/csv'
+require 'metatag_cop/builders/csv'
