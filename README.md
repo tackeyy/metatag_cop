@@ -1,6 +1,7 @@
 # MetatagCop
 
-MetatagCop loads csv file and checks whether meta tags is set proper value.
+MetatagCop loads csv file and checks whether meta tags is set proper value.  
+Any questions, issues and pull requests are welcome!
 
 ## Installation
 
@@ -28,7 +29,24 @@ https://www.google.co.jp/,      exepected title here, exepected description here
 https://www.google.com/doodles, exepected title here, exepected description here, exepected h1 here
 ```
 
-2. Run ` $ metatag_cop file_path `
+2. Run ` $ metatag_cop file_path ` like this.
+
+` $ metatag_cop ~/sample.csv `
+
+3. Check result in the console.
+
+```
+url: https://www.google.co.jp/
+[title] expected: exepected title here, actual: Google
+[description] expected: exepected description here, actual: 世界中のあらゆる情報を検索するためのツールを提供しています。さまざまな検索機能を活用して、お探しの情報を見つけてください。
+[keywords] expected: exepected keywords here, actual:
+[h1] expected: exepected h1 here, actual:
+url: https://www.google.com/doodles
+[title] expected: exepected title here, actual: Google Doodles
+[description] expected: exepected description here, actual:
+[keywords] expected: exepected keywords here, actual:
+[h1] expected: exepected h1 here, actual:
+```
 
 ## Development
 
