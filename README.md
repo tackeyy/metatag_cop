@@ -37,18 +37,7 @@ https://www.google.com/doodles, exepected title here, exepected description here
 
 3. Check result in the console.
 
-```
-url: https://www.google.co.jp/
-[title] expected: exepected title here, actual: Google
-[description] expected: exepected description here, actual: 世界中のあらゆる情報を検索するためのツールを提供しています。さまざまな検索機能を活用して、お探しの情報を見つけてください。
-[keywords] expected: exepected keywords here, actual:
-[h1] expected: exepected h1 here, actual:
-url: https://www.google.com/doodles
-[title] expected: exepected title here, actual: Google Doodles
-[description] expected: exepected description here, actual:
-[keywords] expected: exepected keywords here, actual:
-[h1] expected: exepected h1 here, actual:
-```
+[![https://gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99](https://i.gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99.gif)](https://gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99)
 
 ## Development
 
