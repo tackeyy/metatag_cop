@@ -1,4 +1,6 @@
 require 'csv'
+require 'formatador'
+require 'kosi'
 
 require 'metatag_cop/version'
 require 'metatag_cop/handler'

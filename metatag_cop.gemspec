@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['mailto.takita.yusuke@gmail.com']
 
   spec.summary       = 'metatag_cop loads csv file and checks whether meta tags is set proper value.'
-  spec.description   = 'Any feedback is webcome! You can find me [here](https://twitter.com/3chhe).'
+  spec.description   = 'metatag_cop loads csv file and checks whether meta tags is set proper value.'
   spec.homepage      = 'https://github.com/tackeyy/metatag_cop'
   spec.license       = 'MIT'
 
@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'nokogiri', '~> 1.7'
+  spec.add_dependency 'formatador', '~> 0.2.5'
+  spec.add_dependency 'kosi', '~> 1.0'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'

@@ -3,6 +3,8 @@
 MetatagCop loads csv file and checks whether meta tags is set proper value.  
 Any questions, issues and pull requests are welcome!
 
+[![https://gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99](https://i.gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99.gif)](https://gyazo.com/ad116c7c62b7782320a8fe50ba5f8b99)
+
 ## Installation
 
 Add this line to your application's Gemfile:
